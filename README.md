@@ -1,2 +1,2 @@
-# React_Person_App
+# React Person App
 A very simple react app 
