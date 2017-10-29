@@ -1,0 +1,94 @@
+.profile {
+  display: inline-block;
+  width: 40%;
+  margin: 0 auto;
+  background-color: coral;
+  border-radius: 25px;
+  padding: 10px 0px 10px 0px;
+  margin-top: 30px;
+  height: 100%;
+  margin-left:20px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.name, .social h2 {
+  text-align: center;
+  color: white;
+}
+
+.details, .social {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.details ul, .social ul {
+  list-style: none;
+}
+
+.details ul li {
+  padding-bottom: 20px;
+  font-weight: bold;
+  line-height: 1.9em;
+}
+
+.details span {
+  font-weight: normal;
+  font-style: italic;
+}
+
+.social ul li {
+  display: inline-block;
+  background-color: white;
+  padding: 0px 5px 0px 5px;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.social ul li:last-child {
+  float: right;
+}
+
+.social ul li:first-child {
+  float: left;
+}
+
+.followers {
+  display:inline-block;
+  margin-left: 120px;
+}
+
+.userForm {
+  display:block;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  height: 200px;
+  padding-top: 50px;
+  position: relative;
+  left: -120px;
+}
+
+.userForm input[type="text"] {
+  height: 30px;
+  font-size: 20px;
+}
+
+.userForm input[type="text"]:focus {
+  outline: none;
+}
+
+.userForm input[type="submit"]{
+  background-color: coral;
+  height: 50px;
+  border-radius: 15px;
+  color: white;
+  box-shadow: 0px;
+}
+
+
+
+
